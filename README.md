@@ -89,12 +89,11 @@ predicted_range = model.predict(year_range_poly)
 plt.plot(year_range.flatten(), predicted_range, color='red', label='Polynomial fit')
 plt.scatter(future_years.flatten(), predictions, color='green', label='Predicted scores')
 
-# Adjust x-axis labels to show full season
 season_labels = ["2016-2017", "2017-2018", "2018-2019", "2019-2020", "2021-2022", "2022-2023", "2023-2024", "2024-2025", "2025-2026"]
 plt.xticks(np.append(years.flatten(), future_years.flatten()), season_labels, rotation=45)
 plt.xlabel('Season')
 plt.ylabel('Score')
-plt.title('Swim Scores Over Seasons with Polynomial Predictions')
+plt.title('SwimCloud Scores Over Seasons with Polynomial Predictions')
 plt.legend()
 plt.show()
 ```
