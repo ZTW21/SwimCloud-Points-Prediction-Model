@@ -49,7 +49,7 @@ Make sure you have the following installed on your machine:
 
 ### Data Points
 
-The historical swim score data is provided in the notebook:
+The historical swim score data is provided in the notebook, **Replace these with your values from your SwimCloud page (Profile--> Rankings)**:
 
 ```python
 seasons = ["2016-2017", "2017-2018", "2018-2019", "2019-2020", "2021-2022", "2022-2023", "2023-2024"]
