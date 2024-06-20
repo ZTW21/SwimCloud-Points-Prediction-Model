@@ -108,5 +108,3 @@ The notebook prints the predicted scores for the next two seasons:
 for season, score in zip(["2024-2025", "2025-2026"], predictions):
     print(f"Predicted score for season {season}: {score:.2f}")
 ```
-
----# SwimCloud-Points-Prediction-Model
